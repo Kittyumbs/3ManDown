@@ -1,0 +1,33 @@
+body{
+  margin-top: 0px;
+}
+
+.banner-container {
+  position: fixed;
+  left: 0px; /* Khoảng cách từ bên trái */
+  right: 0px;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}  
+
+.banner {
+  display: block; /* Đảm bảo hình ảnh hiển thị là khối (block element) */
+  margin: 0 auto; /* Để hình ảnh được căn giữa theo chiều ngang */
+  padding: 0; /* Xóa khoảng cách từ đầu trang */
+}
+
+.logo-container {
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  top: 50px;
+  display: flex;
+  justify-content: center;
+  background-color: #9FD7F9;
+}  
+
+.logo {
+  display: block; /* Đảm bảo hình ảnh hiển thị là khối (block element) */
+  margin: 0 auto; /* Để hình ảnh được căn giữa theo chiều ngang */
+}
